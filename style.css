@@ -15,6 +15,16 @@ body {
   background-color: #FAEDCD;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 .h-text {
   color: #582F0E;
   font-family: 'Trebuchet MS', sans-serif;
